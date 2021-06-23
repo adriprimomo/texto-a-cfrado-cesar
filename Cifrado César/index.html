@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Conversor texto a Cifrado César">
+    <meta name="keywords" content="César, Cifrado César, Encriptamiento, Cifrador César">
+    <meta name="author" content="Adriano V. Primomo">
+    <title>Texto a Cifrado César</title>
+    <script src="main.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap" rel="stylesheet">
+</head>
+<body>
+    <main>
+        <h1>Transformar texto a Cifrado Cesár</h1>
+        <form action="" id="cifrador" autocomplete="off">
+            <input type="text" name="text" id="input-original" spellcheck="false" placeholder="Ingrese el texto, luego presione Enter.">
+        </form>
+        <div id="resultado"></div>
+        <div class="rango">
+            <input type="range" id="rango" value="10" min="1" max="20" oninput="this.nextElementSibling.value = this.value">
+            <output>10</output>
+        </div>
+    </main>
+    
+</body>
+</html>
